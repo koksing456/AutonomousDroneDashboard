@@ -76,8 +76,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\destinationIcon.png" />
     <Content Include="FlightPlan.aspx" />
     <Content Include="FlightPlanScript.js" />
+    <Content Include="img\icons8-drone-60.png" />
+    <Content Include="img\icons8-marker-100.png" />
+    <Content Include="img\startingIcon.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

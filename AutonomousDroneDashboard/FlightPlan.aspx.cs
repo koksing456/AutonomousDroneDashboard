@@ -34,7 +34,6 @@ namespace AutonomousDroneDashboard
             }
 
             con.Close();
-
         }
 
         public string BinaryToText(byte[] data)
