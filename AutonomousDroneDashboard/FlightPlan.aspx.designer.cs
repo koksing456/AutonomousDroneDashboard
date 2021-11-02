@@ -24,15 +24,6 @@ namespace AutonomousDroneDashboard
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblRiverName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRiverName;
-
-        /// <summary>
         /// startLat control.
         /// </summary>
         /// <remarks>
@@ -42,13 +33,22 @@ namespace AutonomousDroneDashboard
         protected global::System.Web.UI.WebControls.Label startLat;
 
         /// <summary>
-        /// startLong control.
+        /// startLatTXT control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label startLong;
+        protected global::System.Web.UI.WebControls.TextBox startLatTXT;
+
+        /// <summary>
+        /// startLongTXT control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox startLongTXT;
 
         /// <summary>
         /// endLat control.
@@ -60,21 +60,48 @@ namespace AutonomousDroneDashboard
         protected global::System.Web.UI.WebControls.Label endLat;
 
         /// <summary>
-        /// endLong control.
+        /// endLatTXT control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label endLong;
+        protected global::System.Web.UI.WebControls.TextBox endLatTXT;
 
         /// <summary>
-        /// searchPathBtn control.
+        /// endLongTXT control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button searchPathBtn;
+        protected global::System.Web.UI.WebControls.TextBox endLongTXT;
+
+        /// <summary>
+        /// TextBox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+
+        /// <summary>
+        /// planFlightBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button planFlightBtn;
+
+        /// <summary>
+        /// coordinateDatalbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label coordinateDatalbl;
     }
 }
