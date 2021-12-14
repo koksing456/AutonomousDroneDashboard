@@ -11,7 +11,7 @@ namespace AutonomousDroneDashboard
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.Master.TitleText = "Schedule";
         }
     }
 }

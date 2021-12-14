@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AutonomousDroneDashboard.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <%--Boxicons--%>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="css/master.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <i class='bx bxs-plane'></i>
+                    <div id="logo_name">Drone FYP</div>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+
+            <ul class="nav_list">
+                <li>
+                    <a href="InspectionResult.aspx">
+                        <i class='bx bxs-dashboard'></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <span class="tooltip">Dashboard</span>
+                </li>
+                <li>
+                    <a href="Project.aspx">
+                        <i class='bx bx-map'></i>
+                        <span class="links_name">Projects</span>
+                    </a>
+                    <span class="tooltip">Projects</span>
+                </li>
+                <li>
+                    <a href="FlightPlan.aspx">
+                        <i class='bx bx-map-alt'></i>
+                        <span class="links_name">Map</span>
+                    </a>
+                    <span class="tooltip">Map</span>
+                </li>
+                <li>
+                    <a href="WeatherPrediction.aspx">
+                        <i class='bx bx-sun'></i>
+                        <span class="links_name">Weather</span>
+                    </a>
+                    <span class="tooltip">Weather</span>
+                </li>
+<%--                <li>
+                    <a href="DroneStatus.aspx">
+                        <i class='bx bx-paper-plane'></i>
+                        <span class="links_name">Drone</span>
+                    </a>
+                    <span class="tooltip">Drone</span>
+                </li>--%>
+<%--                <li>
+                    <a href="LiveStream.aspx">
+                        <i class='bx bx-video'></i>
+                        <span class="links_name">Live Stream</span>
+                    </a>
+                    <span class="tooltip">Live Stream</span>
+                </li>    --%>            
+                <li>
+                    <a href="Profile.aspx">
+                        <i class='bx bx-user'></i>
+                        <span class="links_name">Profile</span>
+                    </a>
+                    <span class="tooltip">Profile</span>
+                </li>
+
+            </ul>
+
+            <div class="profile_content">
+                <div class="profile">
+                    <div class="profile_details">
+                        <div class="name_job">
+                            <div class="name">Hi,</div>
+                            <div class="job"></div>
+                        </div>
+                    </div>
+                    <a id="logout-btn" style="color:white"><i class='bx bx-log-out' id="log_out"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="home_content">
+            <div class="text">
+                <asp:Label ID="pageTitlelbl" runat="server" Text=""></asp:Label>
+            </div>
+        </div>
+
+<%--        <div class="current_project">
+            <div class="text">
+                <asp:Label ID="currProjectlbl" runat="server" Text="Current Project: "></asp:Label>
+            </div>
+        </div>--%>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+    </form>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+
+
+        btn.onclick = function () {
+            sidebar.classList.toggle("active");
+        }
+    </script>
+
+    <script src="authLogout.js" type="module"></script>
+</body>
+    
+
+</html>

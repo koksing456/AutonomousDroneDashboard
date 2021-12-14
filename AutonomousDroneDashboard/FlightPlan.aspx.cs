@@ -50,6 +50,9 @@ namespace AutonomousDroneDashboard
             //client = new FireSharp.FirebaseClient(config);
             //if (client != null)
             //    Label1.Text = "Connected!";
+
+
+            //ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Welcome to Flight Plan')", true);
         }
     }
 }

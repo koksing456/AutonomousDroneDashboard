@@ -1,19 +1,22 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LiveStream.aspx.cs" Inherits="AutonomousDroneDashboard.LiveStream" %>
+﻿<%@ Page Language="C#" Title="Live Stream" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="LiveStream.aspx.cs" Inherits="AutonomousDroneDashboard.LiveStream" %>
+<%@ MasterType VirtualPath="~/Site1.Master" %> 
 
-<!DOCTYPE html>
+ <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+         <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet"/>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
 
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css"/>
+    </asp:Content>
 
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            
-        </div>
-    </form>
-</body>
-</html>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"> 
+</asp:Content>

@@ -118,12 +118,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="authLogin.js" />
+    <Content Include="authLogout.js" />
+    <Content Include="authProfile.js" />
+    <Content Include="authResetPassword.js" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap\bootstrap-grid.css" />
     <Content Include="css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="css\weather.css" />
+    <Content Include="css\master.css" />
     <Content Include="css\owl.carousel.min.css" />
+    <Content Include="css\ProductStyle.css" />
     <Content Include="css\style.css" />
     <Content Include="DroneStatus.aspx" />
+    <Content Include="FlightPlan.js" />
     <Content Include="fonts\icomoon\demo-files\demo.css" />
     <Content Include="fonts\icomoon\demo-files\demo.js" />
     <Content Include="fonts\icomoon\demo.html" />
@@ -132,13 +140,17 @@
     <Content Include="fonts\icomoon\style.css" />
     <Content Include="img\destinationIcon.png" />
     <Content Include="FlightPlan.aspx" />
-    <Content Include="FlightPlanScript.js" />
+    <Content Include="authSignup.js" />
     <Content Include="img\forgotpassword.svg" />
     <Content Include="img\icons8-drone-60.png" />
     <Content Include="img\icons8-marker-100.png" />
+    <Content Include="img\river1.jpg" />
+    <Content Include="img\river5.jpg" />
+    <Content Include="img\sampleMap.png" />
     <Content Include="img\signup.svg" />
     <Content Include="img\startingIcon.png" />
     <Content Include="img\login.svg" />
+    <Content Include="img\profile.svg" />
     <Content Include="index.html" />
     <Content Include="InspectionResult.aspx" />
     <Content Include="js\bootstrap.min.js" />
@@ -148,9 +160,17 @@
     <Content Include="js\popper.min.js" />
     <Content Include="LiveStream.aspx" />
     <Content Include="Login2.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Project.aspx" />
+    <Content Include="Project.js" />
     <Content Include="Registration.aspx" />
     <Content Include="ResetPassword.aspx" />
     <Content Include="Schedule.aspx" />
+    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
     <Content Include="WeatherPrediction.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -191,6 +211,20 @@
     <Compile Include="Login2.aspx.designer.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project.aspx.cs">
+      <DependentUpon>Project.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project.aspx.designer.cs">
+      <DependentUpon>Project.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
@@ -212,6 +246,13 @@
     </Compile>
     <Compile Include="Schedule.aspx.designer.cs">
       <DependentUpon>Schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
     <Compile Include="WeatherPrediction.aspx.cs">
       <DependentUpon>WeatherPrediction.aspx</DependentUpon>
@@ -323,6 +364,9 @@
     <Content Include="scss\bootstrap\_utilities.scss" />
     <Content Include="scss\bootstrap\_variables.scss" />
     <Content Include="scss\style.scss" />
+    <Content Include="Site1.Master" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

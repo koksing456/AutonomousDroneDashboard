@@ -11,7 +11,8 @@ namespace AutonomousDroneDashboard
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.Master.TitleText = "Forecast Weather";
+            ScriptManager.RegisterStartupScript(this, Page.GetType(), "key", "DefaultScreen()", true);
         }
     }
 }

@@ -23,7 +23,6 @@
 
 </head>
 <body>
-    <form id="form1" runat="server">
  <div class="content">
     <div class="container">
       <div class="row">
@@ -35,12 +34,7 @@
               <h3>Register</h3>
               <p class="mb-4">Get Started Now.</p>
             </div>
-            <form action="#" method="post">
-
-              <div class="form-group first">
-                <label for="username">Username</label>
-                <input type="text" class="form-control" id="username" />
-              </div>
+            <form id="signup-form">
 
                 <div class="form-group first">
                 <label for="username">Email</label>
@@ -58,7 +52,7 @@
               </div>
 
               <input type="submit" value="Create My Account" class="btn btn-block btn-primary" />
-
+                <p class="error pink-text center-align" style="color:red;"></p>
             </form>
             </div>
           </div>
@@ -77,6 +71,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    </form>
 </body>
+
+    <script src="authSignup.js" type="module"></script>
+
 </html>
