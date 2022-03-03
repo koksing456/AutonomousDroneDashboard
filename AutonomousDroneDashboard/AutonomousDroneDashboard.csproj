@@ -151,21 +151,18 @@
     <Content Include="img\startingIcon.png" />
     <Content Include="img\login.svg" />
     <Content Include="img\profile.svg" />
-    <Content Include="index.html" />
     <Content Include="InspectionResult.aspx" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.3.1.min.js" />
     <Content Include="js\main.js" />
     <Content Include="js\owl.carousel.min.js" />
     <Content Include="js\popper.min.js" />
-    <Content Include="LiveStream.aspx" />
     <Content Include="Login2.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="Project.aspx" />
     <Content Include="Project.js" />
     <Content Include="Registration.aspx" />
     <Content Include="ResetPassword.aspx" />
-    <Content Include="Schedule.aspx" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
@@ -196,13 +193,6 @@
     </Compile>
     <Compile Include="InspectionResult.aspx.designer.cs">
       <DependentUpon>InspectionResult.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LiveStream.aspx.cs">
-      <DependentUpon>LiveStream.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LiveStream.aspx.designer.cs">
-      <DependentUpon>LiveStream.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login2.aspx.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
@@ -239,13 +229,6 @@
     </Compile>
     <Compile Include="ResetPassword.aspx.designer.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Schedule.aspx.cs">
-      <DependentUpon>Schedule.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Schedule.aspx.designer.cs">
-      <DependentUpon>Schedule.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
